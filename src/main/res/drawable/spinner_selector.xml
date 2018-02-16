@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <items android:drawable="@android:color/white" android:state_pressed="true"/>
+    <items android:drawable="@android:color/holo_red_light" android:state_focused="true"/>
+    <items android:drawable="@color/primary_material_light"/>
+</selector>

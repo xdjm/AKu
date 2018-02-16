@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AKu</string>
+    <string name="readme">Readme</string>
+    <string name="avatarbg">avatar_bg</string>
+    <string name="empty_here">Empty here</string>
+    <string name="show">分类:</string>
+    <string name="share">分享</string>
+    <string name="about">关于</string>
+    <string name="joinqun">点击加群</string>
+    <string name="qq">点击聊天</string>
+    <string name="github">https://github.com/xdjm</string>
+    <string name="sort_by">排序:</string>
+</resources>
