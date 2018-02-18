@@ -258,11 +258,4 @@ public class ProjectActivity extends AppCompatActivity {
         description.onPause();
         super.onPause();
     }
-
-    @Override
-    public void onBackPressed() {
-        if (!description.onBackPressed())
-        { return; }
-        super.onBackPressed();
-    }
 }

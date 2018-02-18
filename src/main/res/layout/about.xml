@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+    android:layout_width="200dp"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/colorPrimary"
+    android:gravity="center">
 
     <TextView
+        android:textColor="@android:color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#eaeaea"
-        android:fontFamily="casual"
+        android:background="@color/colorPrimaryDark"
         android:gravity="center"
         android:padding="8dp"
         android:text="@string/about"
@@ -17,33 +20,36 @@
         android:textStyle="bold" />
 
     <com.xw.repo.VectorCompatTextView
+        android:textColor="@android:color/white"
         android:id="@+id/github"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:drawableLeftCompat="@drawable/ic_github"
         android:gravity="center"
-        android:linksClickable="false"
-        android:text="@string/github"
+        android:text="点击查看"
         />
 
     <com.xw.repo.VectorCompatTextView
+        android:textColor="@android:color/white"
         android:id="@+id/qqqun"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:drawableLeftCompat="@drawable/ic_joinqun"
         android:gravity="center"
         android:text="@string/joinqun" />
 
     <com.xw.repo.VectorCompatTextView
+        android:textColor="@android:color/white"
         android:id="@+id/qq"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:drawableLeftCompat="@drawable/ic_qq"
         android:gravity="center"
         android:text="@string/qq" />
     <com.xw.repo.VectorCompatTextView
+        android:textColor="@android:color/white"
         android:id="@+id/update"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:drawableLeftCompat="@drawable/ic_updownload"
         android:gravity="center"
